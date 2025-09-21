@@ -1,29 +1,94 @@
 {
-    "APPSTATE_PATH": "./appstate.json",
-    "APPSTATE_PROTECTION": true,
-    "AUTO_PING_SERVER": true,
-    "ALLOW_INBOX": false,
-    "DATABASE": "JSON",
-    "DATABASE_JSON_BEAUTIFY": true,
-    "FCA_OPTIONS": {
-        "pauseLog": true,
-        "logLevel": "silent",
-        "selfListen": false,
-        "listenEvents": true,
-        "forceLogin": true,
-        "userAgent": "Mozilla/5.0 (Linux; Android 9; SM-G973U Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36"
+  "BOTNAME": "Dora Bot",
+  "AMDIN_NAME": "حمودي سان 🇸🇩",
+  "FACEBOOK_ADMIN": "https://www.facebook.com/your.profile",
+  "PREFIX": "/100082631832134",
+
+  "LANGUAGE": "ar", 
+  "SUPPORTED_LANGUAGES": ["ar", "vi", "en"],
+  "DeveloperMode": false,
+
+  "APPSTATE_PATH": "./appstate.json",
+  "APPSTATE_PROTECTION": true,
+  "ALLOW_INBOX": true,
+
+  "DATABASE": {
+    "sqlite": {
+      "storage": "data.sqlite"
+    }
+  },
+
+  "FCAOption": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "pauseLog": true,
+    "logLevel": "error",
+    "selfListen": false,
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Mobile Safari/537.36"
+  },
+
+  "ADMINBOT": [
+    "100082631832134"
+  ],
+
+  "NDH": [],
+  "commandDisabled": [],
+  "eventDisabled": [],
+
+  "menu": {
+    "autoUnsend": {
+      "status": true,
+      "timeOut": 60
     },
-    "LANGUAGE": "en_US",
-    "LOG_LEVEL": 1,
-    "MODERATORS": [
-        "100054677207079"
-    ],
-    "ABSOLUTES": [
-        "100054677207079"
-    ],
-    "NAME": "Xavia",
-    "PREFIX": "x",
-    "timezone": "Asia/Ho_Chi_Minh",
-    "REFRESH": "43200000",
-    "MAX_BALANCE_LIMIT": "-1"
+    "sendAttachments": {
+      "status": true,
+      "random": true,
+      "url": "https://i.imgur.com/LKkw8SL.jpg"
+    }
+  },
+
+  "daily": {
+    "cooldownTime": 540000,
+    "rewardCoin": 500
+  },
+
+  "math": {
+    "WOLFRAM": "T8J8YV-H265UQ762K"
+  },
+
+  "طقس": {
+    "OPEN_WEATHER": "c4ef85b93982d6627681b056e24bd438"
+  },
+
+  "بنك": {
+    "APIKEY": "chinhdz"
+  },
+
+  "لقب": {
+    "APIKEY": "mi451266190"
+  },
+
+  "rank": {
+    "APIKEY": "571752207151901|AC-zG86sv6U6kpnT0_snIHBOHJc"
+  },
+
+  "هلب": {
+    "autoUnsend": true,
+    "delayUnsend": 300
+  },
+
+  "اوامر": {
+    "autoUnsend": true,
+    "delayUnsend": 20
+  },
+
+  "الرانك": {
+    "autoUnsend": true,
+    "unsendMessageAfter": 5
+  },
+
+  "rankup": {
+    "autoUnsend": true,
+    "unsendMessageAfter": 5
+  }
 }
